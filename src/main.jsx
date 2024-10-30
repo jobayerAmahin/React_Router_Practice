@@ -13,11 +13,13 @@ import Contact from './Components/Contact/Contact.jsx';
 import Users from './Components/Users/Users.jsx';
 import SingleUser from './Components/SingleUser/SingleUser.jsx';
 import AxiosPhone from './Components/Axios/AxiosPhone.jsx';
+import ErrorPage from './Components/Error/Error.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children:[
       {
         path:"/about",
