@@ -6,10 +6,11 @@ const Home = () => {
         <div>
             <h1>This is Home Page</h1>
             <nav>
-                <Link to={'/'}>Home</Link>
-                <Link to={'/about'}>About</Link>
-                <Link to={'/contact'}>Contact</Link>
-                <Link to={'/users'}>Users</Link>
+                <Link style={{margin:'10px'}} to={'/'}>Home</Link>
+                <Link style={{margin:'10px'}} to={'/about'}>About</Link>
+                <Link style={{margin:'10px'}} to={'/axiosPhone'}>Axios Phone</Link>
+                <Link style={{margin:'10px'}} to={'/contact'}>Contact</Link>
+                <Link style={{margin:'10px'}} to={'/users'}>Users</Link>
               
             </nav>
             <Outlet></Outlet>

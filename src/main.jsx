@@ -12,6 +12,7 @@ import About from './Components/About/About.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import Users from './Components/Users/Users.jsx';
 import SingleUser from './Components/SingleUser/SingleUser.jsx';
+import AxiosPhone from './Components/Axios/AxiosPhone.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:"/contact",
         element:<Contact></Contact>
+      },
+      {
+        path:"/axiosPhone",
+        element:<AxiosPhone></AxiosPhone>
       },
       {
         path:"/users",
